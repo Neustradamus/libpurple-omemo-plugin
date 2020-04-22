@@ -75,7 +75,7 @@
 #define NS_EME "urn:xmpp:eme:0"
 #define CIPHER_MODE_GCM 3562
 #define OMEMO_PAYLOAD_SECRET_LEN 16 // AES-128-GCM
-#define OMEMO_PAYLOAD_IV_LEN 16 // AES blocksize
+#define OMEMO_PAYLOAD_IV_LEN 12 // AES blocksize
 #define SIGNED_PRE_KEY_DAYS_TO_RENEW 7
 #define SIGNED_PRE_KEY_DAYS_TO_DELETE 30
 
